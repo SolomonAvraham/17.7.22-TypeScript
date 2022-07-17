@@ -17,3 +17,15 @@ function clacFuncTwo() {
     console.log("equle to 10");
   }
 }
+
+function clacFuncThree() {
+  let first: any = document.querySelector("#inputCalc");
+  let second: any = document.querySelector("#inputCalc");
+  if (first.value < second.value) {
+    console.log(second.value);
+  } else if (first.value > second.value) {
+    console.log(first.value);
+  } else {
+    console.log("values are equle");
+  }
+}
