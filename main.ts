@@ -111,3 +111,70 @@ tarigilTwelev("2002-11-03");
 
 
 
+function targilThirteen(num:number,txt:string){
+
+
+for(let i=0;i<num;i++){
+
+    console.log(txt);
+}
+
+}
+targilThirteen(5, "hello");
+
+
+function targilFourteen(name:string,age:number){
+
+if(age>18){
+console.log(`Welcome Back ${name}`);
+}
+else{
+console.log(`NO Entry ${name}`);
+
+}
+
+
+}
+targilFourteen("soli", 31);
+
+function targilFifteen(firstName:string,lastName:string):any{
+
+if(  firstName.charAt(0)==lastName.charAt(0)){
+
+return firstName.charAt(0);
+
+}
+else{
+return 0;
+
+}
+
+}
+
+targilFifteen("Soli", "Soly");
+
+
+function targilEithteen(myArray:string[]){
+
+
+switch(myArray.length){
+case 0:
+return myArray[0];
+
+case 1:
+return "NO DATA";
+
+
+case 2:
+return `${myArray[0]} ${myArray[1]}`;
+
+
+default:
+return "there are many items";
+}
+
+
+
+}
+targilEithteen(["one"]);
+ 
