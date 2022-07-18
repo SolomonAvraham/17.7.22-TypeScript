@@ -29,3 +29,85 @@ function clacFuncThree() {
     console.log("values are equle");
   }
 }
+
+
+// -------------
+
+
+ function returnMinNum(one:number,two:number){
+return Math.min(one,two);
+ }
+returnMinNum(3,5);
+
+function targilTwo(one:number,two:number,three:number){
+return Math.min(one,two,three);
+
+}
+targilTwo(35,45,2);
+
+function targilThree(one:number,two:number,three:number){
+return (one+two+three)/3;
+}
+targilThree(55,11,32);
+
+function targilFour(one:number,two:number,three:number,four:number){
+return (one+two+three+four);
+
+}
+targilFour(11,3,44,7);
+
+
+function targilFive(myArray:number[]){
+let sum:number[]=0;
+    myArray.forEach(item =>
+    sum+=item;)
+
+    return sum / myArray.length;
+
+}
+targilFive([43, 5, 33]);
+
+function targilTen(myArray:number[]){
+let sum:number[]=0;
+    myArray.forEach(item =>
+    sum+=item;)
+
+    return sum;
+
+}
+targilFive([43, 5, 33]);
+
+
+
+function tarigilEleven(myArray:string[]){
+return myArray[1];
+
+
+}
+tarigilEleven(["one", "two", "three"]);
+ 
+function targilTweleve(myArray:string[]):String{
+    let sum:string;
+ myArray.forEach(item=>{
+
+ if(item.charAt(0) == "A"){
+sum=item;}
+ })
+ return sum;
+
+}
+ let a:string[]=["soli","Aoli","doli"];
+console.log(targilTweleve(a));
+
+function tarigilTwelev(myDate:string){
+
+
+return new Date(myDate);
+
+
+}
+tarigilTwelev("2002-11-03");
+ 
+
+
+
